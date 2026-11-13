@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Tower Idle">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0B1A27"/><stop offset="1" stop-color="#173446"/></linearGradient>
+    <linearGradient id="beam" x1="1" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#8FF5D6" stop-opacity=".55"/><stop offset="1" stop-color="#8FF5D6" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <path d="M-20 150C90 70 210 190 330 110S500 60 540 120v70C470 150 400 200 300 190S90 170-20 240Z" fill="#6FE3B4" opacity=".28"/>
+  <path d="M-20 90C100 40 200 120 320 70S480 20 540 60v50C460 80 390 130 300 122S80 110-20 160Z" fill="#8E7BE0" opacity=".3"/>
+  <path d="M256 200L-10 150v120Z" fill="url(#beam)"/>
+  <path d="M0 512V452l150-84h212l150 84v60Z" fill="#2C4A59" opacity=".55"/>
+  <path d="M60 420l90-52h212l90 52-90 44H150Z" fill="#081119"/>
+  <path d="M214 404l18-186h48l18 186Z" fill="#A9BFCC"/>
+  <path d="M256 218h24l18 186h-42Z" fill="#7F99A8"/>
+  <path d="M217 356h78l3 22h-84Z" fill="#22313D"/>
+  <rect x="222" y="180" width="68" height="40" rx="8" fill="#8FF5D6"/>
+  <path d="M206 180l50-52 50 52Z" fill="#F7C873"/>
+  <path d="M256 128v-26" stroke="#F7C873" stroke-width="6" stroke-linecap="round"/>
+</svg>
