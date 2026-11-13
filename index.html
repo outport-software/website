@@ -1,24 +1,256 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/style.css"><link rel="icon" href="/logo.svg" type="image/svg+xml"><meta name="description" content="Outport Software makes simple, private phone apps that run on your device. Made in Newfoundland and Labrador."><title>Outport Software</title></head><body><main><header><img src="/logo.svg" alt=""><a href="/">Outport Software</a></header>
-<h1>Simple, private apps for everyday people</h1>
-<p class="lead">We make small phone apps that do one thing well. They are easy to read, easy to use, and they run on your phone, so your photos and words stay with you.</p>
-<ul class="values">
-<li><strong>Private by design.</strong> The clever parts run on your device. Nothing you make is uploaded.</li>
-<li><strong>Pay once.</strong> Try it free, then unlock it for good. No subscriptions, no ads.</li>
-<li><strong>Made for real people.</strong> Large text, clear buttons, plain words.</li>
-</ul>
-<h2>Our apps</h2>
-<div class="card app"><img src="/yesteryear/icon.png" alt="Yesteryear app icon"><div>
-<span class="badge">Coming soon</span>
-<h2>Yesteryear</h2>
-<p>Bring old photos back to life. Repair scratches and tears, add natural color to black and white photos, and sharpen them for printing.</p>
-<p class="links"><a href="/yesteryear/">Help</a><a href="/yesteryear/privacy.html">Privacy</a><a href="/yesteryear/terms.html">Terms</a></p>
-</div></div>
-<div class="card app"><img src="/flashpage/icon.png" alt="Flashpage app icon"><div>
-<span class="badge">Coming soon</span>
-<h2>Flashpage</h2>
-<p>Snap a page, get flashcards. Photograph your notes or a textbook page, and your phone writes question and answer cards, then helps you study them a few minutes a day.</p>
-<p class="links"><a href="/flashpage/">Help</a><a href="/flashpage/privacy.html">Privacy</a><a href="/flashpage/terms.html">Terms</a></p>
-</div></div>
-<h2>Contact</h2>
-<p>Questions, ideas or problems: <a href="mailto:support@outportsoftware.ca">support@outportsoftware.ca</a>. We read every message.</p>
-<nav><footer class="muted">Outport Software, Newfoundland and Labrador, Canada. This website uses no cookies and no tracking.</footer></nav></main></body></html>
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Outport Software: private apps and games from Newfoundland</title>
+<meta name="description" content="Outport Software is a small independent studio in Newfoundland and Labrador. We make AI tools that run entirely on your phone, and games with no ads and no account. Pay once.">
+<link rel="canonical" href="https://outportsoftware.ca/">
+<meta name="theme-color" content="#F4F3EE" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B131B" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/logo.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preload" href="/assets/fonts/bricolage-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/atkinson-next-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/site.css">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Outport Software">
+<meta property="og:title" content="Outport Software: private apps and games from Newfoundland">
+<meta property="og:description" content="A small independent studio in Newfoundland and Labrador. AI tools that run entirely on your phone, and games with no ads and no account. Pay once.">
+<meta property="og:url" content="https://outportsoftware.ca/">
+<meta property="og:image" content="https://outportsoftware.ca/assets/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Outport Software: a row of coloured saltbox houses and a lighthouse on a harbour at night.">
+<meta property="og:locale" content="en_CA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Outport Software: private apps and games from Newfoundland">
+<meta name="twitter:description" content="AI tools that run entirely on your phone, and games with no ads and no account. Pay once.">
+<meta name="twitter:image" content="https://outportsoftware.ca/assets/img/og.jpg">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="hero">
+  <div class="aurora" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/"><img src="/logo.svg" alt="" width="40" height="40">Outport Software</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="#apps">Apps</a>
+        <a href="#games">Games</a>
+        <a class="wide" href="#how">How we build</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="wrap hero-copy">
+    <p class="eyebrow">Newfoundland and Labrador, Canada</p>
+    <h1>Small, private software from the edge of the North Atlantic.</h1>
+    <p class="lead">We are an independent studio making AI tools that run entirely on your phone, and games you can play without an account. Nothing you make is uploaded, and you pay once.</p>
+  </div>
+
+  <div class="scene" aria-hidden="true">
+    <svg viewBox="0 0 1440 340" preserveAspectRatio="xMidYMax slice" focusable="false">
+      <defs>
+        <pattern id="waves" width="44" height="18" patternUnits="userSpaceOnUse"><path class="s-wave" d="M0 6c4-2.6 7-2.6 11 0s7 2.6 11 0 7-2.6 11 0 7 2.6 11 0"/></pattern>
+        <g id="house">
+          <path fill="currentColor" d="M0 0V-30L24-52 70-16V0Z"/>
+          <path class="s-trim" d="M-3-27.500L24-53 73-14"/>
+          <rect class="s-window" x="9" y="-27" width="10" height="11" rx="1"/>
+          <rect class="s-window" x="30" y="-17" width="9" height="17" rx="1"/>
+          <rect class="s-window" x="50" y="-14" width="9" height="8" rx="1"/>
+        </g>
+      </defs>
+      <g class="s-star"><circle cx="210" cy="40" r="1.3"/><circle cx="420" cy="84" r="1"/><circle cx="640" cy="30" r="1.4"/><circle cx="800" cy="96" r="1"/><circle cx="930" cy="48" r="1.2"/><circle cx="1090" cy="78" r="1"/><circle cx="1180" cy="26" r="1.4"/><circle cx="1360" cy="64" r="1.1"/><circle cx="1400" cy="18" r="1"/><circle cx="70" cy="90" r="1"/></g>
+      <path class="s-far" d="M0 224C110 196 210 214 330 188S540 150 660 184s200 34 320 2 190-64 300-34 120 36 160 24V290H0Z"/>
+      <path class="s-mid" d="M0 244c120-22 250-8 400-30s300-10 430 14 190 42 260 62H0Z"/>
+      <path class="s-rock" d="M1080 290c40-20 76-44 128-52s96-10 136 4 70 34 96 38v10Z"/>
+      <path class="s-tower" d="M1239 238l4-80h14l4 80Z"/>
+      <path fill="var(--h-red)" d="M1241.400 190h17.200l.7 14h-18.600Z"/>
+      <rect class="s-rock" x="1238" y="154" width="24" height="4" rx="1"/>
+      <rect class="s-lamp" x="1244" y="140" width="12" height="14" rx="1.500"/>
+      <path fill="var(--h-red)" d="M1240 141l10-12 10 12Z"/>
+      <use href="#house" class="hw" transform="translate(1276 240) scale(.62)"/>
+      <path class="s-rock" d="M0 270c100-12 200-6 300-14s230-6 350-2 180 6 250 12 100 14 120 24H0Z"/>
+      <use href="#house" class="hb" transform="translate(120 266) scale(1.050)"/>
+      <use href="#house" class="hw" transform="translate(292 260) scale(-1.150 1.150)"/>
+      <use href="#house" class="hr" transform="translate(318 257) scale(1.300)"/>
+      <use href="#house" class="ho" transform="translate(516 254) scale(-1.100 1.100)"/>
+      <use href="#house" class="hg" transform="translate(548 254) scale(1.200)"/>
+      <use href="#house" class="hw" transform="translate(668 255) scale(1.350)"/>
+      <use href="#house" class="hb" transform="translate(870 260) scale(-1.100 1.100)"/>
+      <path class="s-stilt" d="M898 268v24M922 268v24M950 268v24M978 268v24"/>
+      <rect class="s-rock" x="890" y="264" width="96" height="5" rx="1"/>
+      <use href="#house" class="hr" transform="translate(902 264) scale(.8)"/>
+      <rect class="s-sea" y="286" width="1440" height="54"/>
+      <rect fill="url(#waves)" y="294" width="1440" height="46" opacity=".55"/>
+      <g transform="translate(1034 296)"><path fill="var(--h-ochre)" d="M0 0h50l-8 10H7Z"/><path class="s-trim" d="M2 3h46"/></g>
+    </svg>
+    <svg class="light" viewBox="0 0 1440 340" preserveAspectRatio="xMidYMax slice" focusable="false">
+      <defs>
+        <linearGradient id="beam-l" x1="1" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#FFE3A1" stop-opacity=".5"/><stop offset="1" stop-color="#FFE3A1" stop-opacity="0"/></linearGradient>
+        <linearGradient id="beam-r" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFE3A1" stop-opacity=".4"/><stop offset="1" stop-color="#FFE3A1" stop-opacity="0"/></linearGradient>
+      </defs>
+      <g class="s-beam"><path fill="url(#beam-l)" d="M1250 147L520 62v112Z"/><path fill="url(#beam-r)" d="M1250 147l190-30v52Z"/></g>
+      <circle class="s-glow" cx="1250" cy="147" r="17"/>
+    </svg>
+    <div class="fog"></div>
+  </div>
+</div>
+
+<main id="main">
+  <section class="section first" id="apps">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker">Local AI tools</p>
+        <h2>Apps that do their thinking on your phone.</h2>
+        <p>Each one uses AI models that run on the device itself. There is no account to make, your photos and pages are never uploaded, and we collect nothing.</p>
+      </div>
+      <div class="apps">
+        <article class="app-card">
+          <div class="app-top">
+            <img class="app-icon" src="/assets/img/yesteryear-icon.webp" alt="Yesteryear app icon: an old scalloped photo with a sparkle" width="76" height="76">
+            <div>
+              <h3><a href="/yesteryear/">Yesteryear</a></h3>
+              <p class="app-tag">Old photo restore</p>
+            </div>
+          </div>
+          <p>Bring old family photos back to life. Repair scratches and tears, add natural color to black and white photos, and sharpen them for printing.</p>
+          <div class="app-foot">
+            <span class="chip">Coming to iPhone and Android</span>
+            <ul class="mini-links" aria-label="Yesteryear links">
+              <li><a href="/yesteryear/">Help</a></li>
+              <li><a href="/yesteryear/privacy.html">Privacy</a></li>
+              <li><a href="/yesteryear/terms.html">Terms</a></li>
+            </ul>
+          </div>
+        </article>
+        <article class="app-card">
+          <div class="app-top">
+            <img class="app-icon" src="/assets/img/flashpage-icon.webp" alt="Flashpage app icon: a stack of flashcards with a question mark" width="76" height="76">
+            <div>
+              <h3><a href="/flashpage/">Flashpage</a></h3>
+              <p class="app-tag">Photo flashcards</p>
+            </div>
+          </div>
+          <p>Snap a page, get flashcards. Photograph your notes or a textbook page, and your phone writes question and answer cards, then brings each one back just before you would forget it.</p>
+          <div class="app-foot">
+            <span class="chip">Coming to iPhone</span>
+            <ul class="mini-links" aria-label="Flashpage links">
+              <li><a href="/flashpage/">Help</a></li>
+              <li><a href="/flashpage/privacy.html">Privacy</a></li>
+              <li><a href="/flashpage/terms.html">Terms</a></li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="games">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker">Games</p>
+        <h2>Games to settle into, with no ads and no account.</h2>
+        <p>Our first game is set on a coast a lot like ours, after dark.</p>
+      </div>
+      <article class="night game-card">
+        <div class="game-copy">
+          <div class="game-title">
+            <img src="/toweridle/icon.svg" alt="Tower Idle icon: a lighthouse under the aurora" width="64" height="64">
+            <h3>Tower Idle</h3>
+          </div>
+          <p class="game-line">Hold the coast against the storm.</p>
+          <p>An idle tower defense game about a lighthouse, a string of northern islands and a sky full of aurora. Build towers along the shore, keep the beacon alight, then sail on to endless Saga islands.</p>
+          <div class="game-actions">
+            <a class="btn" href="/toweridle/">About Tower Idle <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.200" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5"/></svg></a>
+            <span class="chip">Coming soon</span>
+          </div>
+        </div>
+        <div class="game-shots">
+          <img class="shot" src="/assets/img/toweridle-harbour.webp" alt="Tower Idle battle on the Harbour island: towers fire on storm creatures along a winding lane, with fish stores on stilts and the aurora overhead" width="540" height="1140" loading="lazy" decoding="async">
+          <img class="shot" src="/assets/img/toweridle-menu.webp" alt="Tower Idle menu, titled The night coast, with a lighthouse and buttons for Workshop, Research, Charge and Saga" width="540" height="1170" loading="lazy" decoding="async">
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="how">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker">How we build</p>
+        <h2>Four plain rules.</h2>
+      </div>
+      <ul class="principles">
+        <li>
+          <svg viewBox="0 0 44 44" aria-hidden="true"><path fill="var(--h-red)" d="M4 38V20L16 8l24 18v12Z"/><rect x="9" y="22" width="7" height="7" rx="1" fill="var(--bg)"/><rect x="22" y="28" width="6" height="10" rx="1" fill="var(--bg)"/></svg>
+          <h3>On your device</h3>
+          <p>The AI models run on your phone, not on a server. After a one-time download of the models, the apps keep working offline.</p>
+        </li>
+        <li>
+          <svg viewBox="0 0 44 44" aria-hidden="true"><path fill="var(--h-ochre)" d="M4 38V20L16 8l24 18v12Z"/><rect x="9" y="22" width="7" height="7" rx="1" fill="var(--bg)"/><rect x="22" y="28" width="6" height="10" rx="1" fill="var(--bg)"/></svg>
+          <h3>Private</h3>
+          <p>No accounts, no ads, no analytics. Your photos, pages and saved games stay with you. This website has no cookies and no tracking either.</p>
+        </li>
+        <li>
+          <svg viewBox="0 0 44 44" aria-hidden="true"><path fill="var(--h-green)" d="M4 38V20L16 8l24 18v12Z"/><rect x="9" y="22" width="7" height="7" rx="1" fill="var(--bg)"/><rect x="22" y="28" width="6" height="10" rx="1" fill="var(--bg)"/></svg>
+          <h3>Pay once</h3>
+          <p>Try it free, then unlock it for good with one purchase. No subscriptions.</p>
+        </li>
+        <li>
+          <svg viewBox="0 0 44 44" aria-hidden="true"><path fill="var(--h-blue)" d="M4 38V20L16 8l24 18v12Z"/><rect x="9" y="22" width="7" height="7" rx="1" fill="var(--bg)"/><rect x="22" y="28" width="6" height="10" rx="1" fill="var(--bg)"/></svg>
+          <h3>Made in Newfoundland</h3>
+          <p>An outport is a small fishing community on this coast. We try to build the same way: small, sturdy and useful, with large text, clear buttons and plain words.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <h2>Say hello</h2>
+      <p>Questions, ideas or problems. We read every message.</p>
+      <p><a class="mail" href="mailto:support@outportsoftware.ca">support@outportsoftware.ca</a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div class="foot-about">
+      <a class="brand" href="/"><img src="/logo.svg" alt="" width="32" height="32">Outport Software</a>
+      <p>Outport Software Inc., Newfoundland and Labrador, Canada.</p>
+      <p>This website uses no cookies and no tracking.</p>
+    </div>
+    <div>
+      <h2>Yesteryear</h2>
+      <ul>
+        <li><a href="/yesteryear/">Help</a></li>
+        <li><a href="/yesteryear/privacy.html">Privacy policy</a></li>
+        <li><a href="/yesteryear/terms.html">Terms of use</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Flashpage</h2>
+      <ul>
+        <li><a href="/flashpage/">Help</a></li>
+        <li><a href="/flashpage/privacy.html">Privacy policy</a></li>
+        <li><a href="/flashpage/terms.html">Terms of use</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Tower Idle</h2>
+      <ul>
+        <li><a href="/toweridle/">About and help</a></li>
+        <li><a href="/toweridle/privacy.html">Privacy policy</a></li>
+        <li><a href="/toweridle/terms.html">Terms of use</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
